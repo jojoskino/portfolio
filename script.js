@@ -183,4 +183,185 @@ projectTags.forEach(tag => {
             }
         });
     });
-}); 
+});
+
+// Loader animé
+window.addEventListener('DOMContentLoaded', () => {
+    const loader = document.querySelector('.loader');
+    setTimeout(() => {
+        loader.classList.add('hide');
+        setTimeout(() => loader.style.display = 'none', 600);
+    }, 1800);
+});
+
+// Dark/Light mode toggle
+const themeToggle = document.getElementById('theme-toggle');
+const html = document.documentElement;
+let theme = localStorage.getItem('theme') || 'dark';
+function setTheme(t) {
+    html.setAttribute('data-theme', t);
+    themeToggle.innerHTML = t === 'dark' ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
+    localStorage.setItem('theme', t);
+}
+themeToggle.addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(theme);
+});
+setTheme(theme);
+
+// Smooth scroll & active link highlight
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        if (this.hash) {
+            e.preventDefault();
+            document.querySelector(this.hash).scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
+window.addEventListener('scroll', () => {
+    let fromTop = window.scrollY + 80;
+    navLinks.forEach(link => {
+        const section = document.querySelector(link.hash);
+        if (section && section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+});
+
+// Effet typing sur le slogan
+const typingText = document.querySelector('.typing-text');
+if (typingText) {
+    const text = typingText.textContent;
+    typingText.textContent = '';
+    let i = 0;
+    function type() {
+        if (i < text.length) {
+            typingText.textContent += text.charAt(i);
+            i++;
+            setTimeout(type, 30);
+        }
+    }
+    type();
+}
+
+// Glitch effect sur le nom
+const logo = document.querySelector('.logo');
+if (logo) {
+    logo.addEventListener('mouseenter', () => logo.classList.add('glitch'));
+    logo.addEventListener('mouseleave', () => logo.classList.remove('glitch'));
+}
+
+// Bascule FR/EN
+const langToggle = document.getElementById('lang-toggle');
+const langText = document.querySelector('.lang-text');
+let currentLang = localStorage.getItem('lang') || 'fr';
+const translations = {
+    fr: {
+        hero: "Je transforme vos idées en expériences numériques exceptionnelles. Spécialisé dans le développement web moderne et le design d'interface utilisateur.",
+        about: "À propos de moi",
+        skills: "Mes Compétences",
+        projects: "Mes Projets",
+        video: "Présentation Vidéo",
+        contact: "Contact",
+        startProject: "Démarrer un projet",
+        seeProjects: "Voir mes projets",
+        downloadCV: "Télécharger CV",
+        contactTitle: "Parlons de votre projet",
+        contactDesc: "Je suis toujours ouvert à discuter de nouveaux projets, idées créatives ou opportunités de collaboration.",
+        name: "Nom",
+        email: "Email",
+        message: "Message",
+        send: "Envoyer le message"
+    },
+    en: {
+        hero: "I turn your ideas into outstanding digital experiences. Specialized in modern web development and UI design.",
+        about: "About Me",
+        skills: "My Skills",
+        projects: "My Projects",
+        video: "Video Presentation",
+        contact: "Contact",
+        startProject: "Start a project",
+        seeProjects: "See my projects",
+        downloadCV: "Download CV",
+        contactTitle: "Let's talk about your project",
+        contactDesc: "I'm always open to discuss new projects, creative ideas or collaboration opportunities.",
+        name: "Name",
+        email: "Email",
+        message: "Message",
+        send: "Send message"
+    }
+};
+function setLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('lang', lang);
+    langText.textContent = lang.toUpperCase();
+    // Hero
+    document.querySelector('.typing-text').textContent = translations[lang].hero;
+    // Sections
+    document.querySelectorAll('.section-title')[0].textContent = translations[lang].about;
+    document.querySelectorAll('.section-title')[1].textContent = translations[lang].skills;
+    document.querySelectorAll('.section-title')[2].textContent = translations[lang].projects;
+    document.querySelectorAll('.section-title')[3].textContent = translations[lang].video;
+    document.querySelectorAll('.section-title')[4].textContent = translations[lang].contact;
+    // Hero buttons
+    document.querySelector('.cta-button').textContent = translations[lang].startProject;
+    document.querySelector('.cta-button.secondary').textContent = translations[lang].seeProjects;
+    document.querySelector('.cta-button.download-cv').innerHTML = `<i class="fas fa-download"></i> ${translations[lang].downloadCV}`;
+    // Contact
+    document.querySelector('.contact-info h3').textContent = translations[lang].contactTitle;
+    document.querySelector('.contact-info p').textContent = translations[lang].contactDesc;
+    document.querySelector('label[for="name"]').textContent = translations[lang].name;
+    document.querySelector('label[for="email"]').textContent = translations[lang].email;
+    document.querySelector('label[for="message"]').textContent = translations[lang].message;
+    document.querySelector('#contactForm button').textContent = translations[lang].send;
+}
+langToggle.addEventListener('click', () => {
+    setLang(currentLang === 'fr' ? 'en' : 'fr');
+});
+setLang(currentLang);
+
+// Validation du formulaire de contact
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = contactForm.name.value.trim();
+        const email = contactForm.email.value.trim();
+        const message = contactForm.message.value.trim();
+        let valid = true;
+        if (!name) {
+            contactForm.name.classList.add('error');
+            valid = false;
+        } else {
+            contactForm.name.classList.remove('error');
+        }
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+            contactForm.email.classList.add('error');
+            valid = false;
+        } else {
+            contactForm.email.classList.remove('error');
+        }
+        if (!message) {
+            contactForm.message.classList.add('error');
+            valid = false;
+        } else {
+            contactForm.message.classList.remove('error');
+        }
+        if (valid) {
+            // Ici tu peux intégrer EmailJS ou autre service
+            alert(currentLang === 'fr' ? 'Message envoyé avec succès !' : 'Message sent successfully!');
+            contactForm.reset();
+        }
+    });
+}
+
+// Initialisation des animations AOS
+if (window.AOS) {
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+} 
