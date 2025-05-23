@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Portfolio - ESSE Henry-Joel</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Portfolio de ESSE Henry-Joel - Développeur Full Stack & Designer Créatif">
+  <meta name="keywords" content="développeur web, portfolio, design, projets, full stack">
+
+  <!-- Preload des ressources critiques -->
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="preload" href="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" as="script">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Fonts avec font-display: swap -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
@@ -27,6 +32,9 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Scripts critiques -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+
   <!-- =======================================================
   * Template Name: EasyFolio
   * Template URL: https://bootstrapmade.com/easyfolio-bootstrap-portfolio-template/
@@ -37,6 +45,13 @@
 </head>
 
 <body class="index-page">
+
+  <!-- Loader de chargement optimisé -->
+  <div id="loader-bg" style="position:fixed;z-index:9999;top:0;left:0;width:100vw;height:100vh;background:#fff;display:flex;align-items:center;justify-content:center;">
+    <div class="spinner-border" style="width:3rem;height:3rem;color:#f2994a;" role="status">
+      <span class="visually-hidden">Chargement...</span>
+    </div>
+  </div>
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -54,15 +69,15 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="assets/cv/cv.pdf" class="download-cv" download><i class="bi bi-download me-1"></i>CV</a></li>
+          <li><a href="assets/cv/cv_esse_henry-joel.pdf" class="download-cv" download target="_blank" rel="noopener noreferrer"><i class="bi bi-download me-1"></i>CV</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="https://web.facebook.com/profile.php?id=100084156153894" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.linkedin.com/in/joel-esse-41a082297/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com/jojoskino" target="_blank" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100084156153894" target="_blank" rel="noopener noreferrer" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/joel-esse-41a082297/" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/jojoskino" target="_blank" rel="noopener noreferrer" class="github"><i class="bi bi-github"></i></a>
       </div>
 
     </div>
@@ -258,7 +273,7 @@
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/jojo'short.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="https://quicklink-n9ee.onrender.com/" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                      <a href="https://quicklink-n9ee.onrender.com/" target="_blank" rel="noopener noreferrer" class="details-link"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -788,10 +803,10 @@
             <li class="list-inline-item"><a href="#contact">Contact</a></li>
           </ul>
           <div class="footer-social-links d-flex justify-content-center gap-2 mt-2">
-            <a href="https://web.facebook.com/profile.php?id=100084156153894" target="_blank" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/joel-esse-41a082297/" target="_blank" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-linkedin"></i></a>
-            <a href="https://wa.me/+22871252592?text=Je%20viens%20de%20voir%20votre%20portfolio%20et%20j%27aimerais%20que%20vous%20me%20fassiez%20un%20projet." target="_blank" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://github.com/jojoskino" target="_blank" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-github"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100084156153894" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/joel-esse-41a082297/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/+22871252592?text=Je%20viens%20de%20voir%20votre%20portfolio%20et%20j%27aimerais%20que%20vous%20me%20fassiez%20un%20projet." target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://github.com/jojoskino" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary rounded-circle p-2" style="width:40px;height:40px;"><i class="bi bi-github"></i></a>
           </div>
         </div>
         <div class="col-lg-3 text-lg-end text-center">
@@ -818,20 +833,18 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
+    // Optimisation du loader
+    document.addEventListener('DOMContentLoaded', function() {
+      var loader = document.getElementById('loader-bg');
+      if(loader) {
+        setTimeout(function() {
+          loader.style.display = 'none';
+        }, 500);
+      }
+    });
 
-  <!-- Loader de chargement -->
-  <div id="loader-bg" style="position:fixed;z-index:9999;top:0;left:0;width:100vw;height:100vh;background:#fff;display:flex;align-items:center;justify-content:center;">
-    <div class="spinner-border" style="width:3rem;height:3rem;color:#f2994a;" role="status">
-      <span class="visually-hidden">Chargement...</span>
-    </div>
-  </div>
-  <script>
-  window.addEventListener('load', function() {
-    var loader = document.getElementById('loader-bg');
-    if(loader) loader.style.display = 'none';
-  });
+    // Mise à jour de l'année
+    document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
 
 </body>
