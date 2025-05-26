@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -82,6 +85,13 @@
 
     </div>
   </header>
+
+  <?php if (isset($_SESSION['message_success'])): ?>
+      <script>
+        alert("<?= addslashes($_SESSION['message_success']) ?>");
+      </script>
+      <?php unset($_SESSION['message_success']); ?>
+    <?php endif; ?>
 
   <main class="main">
 
@@ -719,7 +729,7 @@
               <div class="contact-info mt-5">
                 <div class="info-item d-flex mb-3">
                   <i class="bi bi-envelope-at me-3"></i>
-                  <span>essejoel34@gmail.com</span>
+                  <span>essev2030@gmail.com</span>
                 </div>
 
                 <div class="info-item d-flex mb-3">
@@ -748,19 +758,19 @@
                   <div class="row gy-4">
 
                     <div class="col-12">
-                      <input type="text" name="name" class="form-control" placeholder="Votre nom" required="">
-                    </div>
-
-                    <div class="col-12 ">
-                      <input type="email" class="form-control" name="email" placeholder="Votre email" required="">
+                      <input type="text" name="name" class="form-control" placeholder="Votre nom" required>
                     </div>
 
                     <div class="col-12">
-                      <input type="text" class="form-control" name="subject" placeholder="Sujet" required="">
+                      <input type="email" class="form-control" name="email" placeholder="Votre email" required>
                     </div>
 
                     <div class="col-12">
-                      <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                      <input type="text" class="form-control" name="subject" placeholder="Sujet" required>
+                    </div>
+
+                    <div class="col-12">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                     </div>
 
                     <div class="col-12 text-center">
@@ -768,7 +778,7 @@
                       <div class="error-message"></div>
                       <div class="sent-message">Votre message a été envoyé. Merci !</div>
 
-                      <button type="submit" class="btn btn-submit w-100">Envoyer le message</button>
+                      <button type="submit" name="envoyer" class="btn btn-submit w-100">Envoyer le message</button>
                     </div>
 
                   </div>
@@ -821,7 +831,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

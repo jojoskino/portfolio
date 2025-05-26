@@ -889,9 +889,18 @@ section,
 }
 
 @media (max-width: 991.98px) {
-  .about .about-content {
-    padding-left: 0;
-    margin-top: 3rem;
+  #about .card.d-flex.flex-row,
+  #about .card.d-flex.flex-lg-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+  }
+  #about .about-image.me-4 {
+    margin-right: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  #about .about-content {
+    text-align: center !important;
   }
 }
 
@@ -1957,4 +1966,20 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Responsive pour la section À propos de moi */
+@media (max-width: 767px) {
+  #about .card.d-flex.flex-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+  }
+  #about .about-image.me-4 {
+    margin-right: 0 !important;
+    margin-bottom: 1.5rem;
+  }
+  #about .about-content {
+    text-align: center;
+  }
 }

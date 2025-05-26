@@ -1,52 +1,53 @@
-# Portfolio JOJOSKINO
+# Portfolio - ESSE Henry-Joel
 
-Portfolio personnel présentant mes projets et compétences en développement web.
+Portfolio professionnel présentant mes compétences en développement web, design et création de contenu.
 
 ## Technologies utilisées
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
-- EmailJS pour le formulaire de contact
+- JavaScript
+- PHP
+- Bootstrap 5
+- PHPMailer
 
 ## Fonctionnalités
 
 - Design responsive
-- Animations au scroll
-- Carousel de projets
-- Formulaire de contact fonctionnel
-- Navigation fluide
-- Mode sombre/clair
+- Formulaire de contact
+- Galerie de projets
+- Animations AOS
+- Filtrage des projets
+- Envoi d'emails via SMTP
 
 ## Installation
 
 1. Clonez le repository
 ```bash
-git clone https://github.com/jojoskino/portfolio.git
+git clone https://github.com/votre-username/EasyFolio.git
 ```
 
-2. Ouvrez le fichier `index.html` dans votre navigateur
+2. Configurez votre serveur web (Apache/Nginx) pour pointer vers le dossier du projet
 
-## Configuration EmailJS
+3. Configurez l'envoi d'emails
+   - Copiez `assets/vendor/config/config.example.php` vers `assets/vendor/config/config.php`
+   - Modifiez les paramètres SMTP dans `config.php`
 
-1. Créez un compte sur [EmailJS](https://www.emailjs.com/)
-2. Créez un service email (Gmail, Outlook, etc.)
-3. Créez un template email
-4. Remplacez les valeurs suivantes dans `script.js` :
-   - `YOUR_PUBLIC_KEY`
-   - `YOUR_SERVICE_ID`
-   - `YOUR_TEMPLATE_ID`
+## Configuration
 
-## Contribution
+Pour configurer l'envoi d'emails, vous devez :
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+1. Avoir un compte Gmail
+2. Activer l'authentification à 2 facteurs
+3. Générer un mot de passe d'application
+4. Configurer les paramètres dans `assets/vendor/config/config.php`
 
 ## Contact
 
-- LinkedIn: [Joel ESSE](https://bit.ly/3Y32nWD)
-- WhatsApp: [+228 71 25 25 92](https://wa.me/+22871252592)
-- Email: essejoel34@gmail.com
+- Email : essev2030@gmail.com
+- LinkedIn : [Joel Esse](https://www.linkedin.com/in/joel-esse-41a082297/)
+- GitHub : [jojoskino](https://github.com/jojoskino)
 
 ## Licence
 
-Ce projet est sous licence MIT. 
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
