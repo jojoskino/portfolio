@@ -62,7 +62,7 @@ session_start();
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Portfolio</h1>
+        <h1 class="sitename">ESSE H-J</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -72,7 +72,7 @@ session_start();
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="assets/cv/cv_esse_henry-joel.pdf" class="download-cv" download target="_blank" rel="noopener noreferrer"><i class="bi bi-download me-1"></i>CV</a></li>
+          <li><a href="assets/cv/cv_esse.pdf" class="download-cv" download target="_blank" rel="noopener noreferrer"><i class="bi bi-download me-1"></i>CV</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -125,7 +125,7 @@ session_start();
           </div>
           <div class="col-lg-6">
             <div class="hero-image">
-              <img src="assets/img/profile/profile-1.png" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/profile/profile-1.webp" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
               <div class="shape-1"></div>
               <div class="shape-2"></div>
             </div>
@@ -143,7 +143,7 @@ session_start();
           <div class="col-lg-8">
             <div class="card shadow p-4 d-flex flex-row align-items-center" style="border-radius: 24px;">
               <div class="about-image me-4" style="flex:0 0 160px;">
-                <img src="assets/img/profile/ma_photo.png" alt="Photo de Henry-Joel" class="img-fluid rounded-4" style="width:160px;height:160px;object-fit:cover;">
+                <img src="assets/img/profile/ma_photo.webp" alt="Photo de Henry-Joel" class="img-fluid rounded-4" style="width:160px;height:160px;object-fit:cover;">
               </div>
               <div class="about-content">
                 <h2 class="fw-bold mb-2" style="color:#385074;">À propos de moi</h2>
@@ -164,9 +164,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">HTML/CSS</h3>
               <div class="mb-2" style="color:#6c757d;">Intégration web moderne et responsive.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">90%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">70%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:90%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:70%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -174,9 +174,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">JavaScript</h3>
               <div class="mb-2" style="color:#6c757d;">Scripts dynamiques et interactions web.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">65%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">50%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:65%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:50%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -184,9 +184,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">Java (Swing)</h3>
               <div class="mb-2" style="color:#6c757d;">Applications desktop robustes.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">80%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">60%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:80%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:60%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -194,9 +194,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">PHP/MySQL</h3>
               <div class="mb-2" style="color:#6c757d;">Développement back-end et gestion de base de données.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">80%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">60%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:80%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:60%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -204,9 +204,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">Flutter/Firebase</h3>
               <div class="mb-2" style="color:#6c757d;">Applications mobiles multiplateformes.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">75%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">60%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:75%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:60%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -214,9 +214,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">Canva</h3>
               <div class="mb-2" style="color:#6c757d;">Création graphique et visuels attractifs.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">95%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">80%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:95%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:80%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -224,9 +224,9 @@ session_start();
             <div class="card shadow-sm p-4 h-100" style="border-radius:18px;">
               <h3 class="fw-bold" style="color:#22314f;">CapCut</h3>
               <div class="mb-2" style="color:#6c757d;">Montage vidéo et contenus dynamiques.</div>
-              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">80%</span></div>
+              <div class="d-flex align-items-center mb-2"><span class="fw-bold ms-auto" style="color:#22314f;">70%</span></div>
               <div class="progress" style="height:8px;background:#fbeee3;">
-                <div class="progress-bar" style="width:80%;background:#f2994a;"></div>
+                <div class="progress-bar" style="width:70%;background:#f2994a;"></div>
               </div>
             </div>
           </div>
@@ -279,10 +279,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/jojo'short.jpg" class="img-fluid" alt="Jojo'Short" loading="lazy">
+                  <img src="assets/img/portfolio/jojo'short.webp" class="img-fluid" alt="Jojo'Short" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/jojo'short.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/jojo'short.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
                       <a href="https://quicklink-n9ee.onrender.com/" target="_blank" rel="noopener noreferrer" class="details-link"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
@@ -299,10 +299,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/bibliotheque.jpg" class="img-fluid" alt="Gestion de bibliothèque" loading="lazy">
+                  <img src="assets/img/portfolio/bibliotheque.webp" class="img-fluid" alt="Gestion de bibliothèque" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/bibliotheque.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/bibliotheque.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
                       <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
@@ -319,10 +319,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/site_ecole.jpg" class="img-fluid" alt="Site web WordPress pour école" loading="lazy">
+                  <img src="assets/img/portfolio/site_ecole.webp" class="img-fluid" alt="Site web WordPress pour école" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/wordpress-ecole.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/wordpress-ecole.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
                       <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
@@ -330,7 +330,7 @@ session_start();
                 <div class="portfolio-content">
                   <span class="category">Web</span>
                   <h3>Site web WordPress pour école</h3>
-                  <p>Création d'un site web institutionnel avec WordPress pour une école, incluant la gestion du contenu et l'interface d'administration.</p>
+                  <p>Refonte du site web de l'Université Catholique de l'Afrique de l'Ouest (UCAO).</p>
                 </div>
               </div>
             </div>
@@ -339,10 +339,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-desktop">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/quincaillerie_dashboard.jpg" class="img-fluid" alt="Gestion de quincaillerie" loading="lazy">
+                  <img src="assets/img/portfolio/quincaillerie_dashboard.webp" class="img-fluid" alt="Gestion de quincaillerie" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/quincaillerie_dashboard.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-desktop"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/quincaillerie_dashboard.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-desktop"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -358,10 +358,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/the_ro_store_logo.png" class="img-fluid" alt="Logo The RO Store" loading="lazy">
+                  <img src="assets/img/portfolio/the_ro_store_logo.webp" class="img-fluid" alt="Logo The RO Store" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/the_ro_store_logo.png" class="glightbox preview-link" data-gallery="portfolio-gallery-logo"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/the_ro_store_logo.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-logo"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -377,10 +377,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/channelshop.jpg" class="img-fluid" alt="Affiche Channel Art" loading="lazy">
+                  <img src="assets/img/portfolio/channelshop.webp" class="img-fluid" alt="Affiche Channel Art" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/channelshop.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/channelshop.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -396,10 +396,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/White and Blue Modern Laundry Service Poster (1).jpg" class="img-fluid" alt="Affiche The RO Store" loading="lazy">
+                  <img src="assets/img/portfolio/White and Blue Modern Laundry Service Poster (1).webp" class="img-fluid" alt="Affiche The RO Store" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/White and Blue Modern Laundry Service Poster (1).jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/White and Blue Modern Laundry Service Poster (1).webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -415,10 +415,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/photo1.jpg" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <img src="assets/img/portfolio/photo1.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/photo1.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/photo1.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -434,10 +434,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/photo2.jpg" class="img-fluid" alt="Affiche événementielle 2" loading="lazy">
+                  <img src="assets/img/portfolio/photo2.webp" class="img-fluid" alt="Affiche événementielle 2" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/photo2.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/photo2.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -453,10 +453,10 @@ session_start();
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/photo3.jpg" class="img-fluid" alt="Affiche événementielle 3" loading="lazy">
+                  <img src="assets/img/portfolio/photo3.webp" class="img-fluid" alt="Affiche événementielle 3" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/photo3.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/photo3.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
                     </div>
                   </div>
                 </div>
@@ -514,7 +514,7 @@ session_start();
                       "Henry-Joel a réalisé une superbe affiche pour mon concourt de chant. Le design était moderne, percutant et a vraiment attiré du monde. Merci !"
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/emmanuel.jpg" class="profile-img" alt="Témoignage affiche 1">
+                      <img src="assets/img/personnes/emmanuel.webp" class="profile-img" alt="Témoignage affiche 1">
                       <div class="profile-info">
                         <h3>Emmanuel Y.</h3>
                         <span>Elève</span>
@@ -523,7 +523,7 @@ session_start();
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/emmanuel.jpg" class="featured-img" alt="Témoignage affiche 1">
+                      <img src="assets/img/personnes/emmanuel.webp" class="featured-img" alt="Témoignage affiche 1">
                     </div>
                   </div>
                 </div>
@@ -538,7 +538,7 @@ session_start();
                       "Très satisfaite du travail de Henry-Joel pour ma boutique. L'affiche était claire, professionnelle et a eu un vrai impact auprès du public."
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/daquine.jpg" class="profile-img" alt="Témoignage affiche 2">
+                      <img src="assets/img/personnes/daquine.webp" class="profile-img" alt="Témoignage affiche 2">
                       <div class="profile-info">
                         <h3>Daquine E.</h3>
                         <span>Esthéticienne</span>
@@ -547,7 +547,7 @@ session_start();
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/daquine.jpg" class="featured-img" alt="Témoignage affiche 2">
+                      <img src="assets/img/personnes/daquine.webp" class="featured-img" alt="Témoignage affiche 2">
                     </div>
                   </div>
                 </div>
@@ -562,7 +562,7 @@ session_start();
                       "J'ai confié la création de mon logo à Henry-Joel. Il a su comprendre mes attentes et proposer un visuel unique et professionnel. Je recommande !"
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/personne.jpeg" class="profile-img" alt="Témoignage logo">
+                      <img src="assets/img/personnes/personne.webp" class="profile-img" alt="Témoignage logo">
                       <div class="profile-info">
                         <h3>The RO Store.</h3>
                         <span>Entrepreneur</span>
@@ -571,7 +571,7 @@ session_start();
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/personne.jpeg" class="featured-img" alt="Témoignage logo">
+                      <img src="assets/img/personnes/personne.webp" class="featured-img" alt="Témoignage logo">
                     </div>
                   </div>
                 </div>
