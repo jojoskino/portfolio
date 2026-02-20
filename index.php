@@ -114,7 +114,7 @@ session_start();
                 <span class="stat-label">Années de formation</span>
               </div>
               <div class="stat-item">
-                <span class="stat-number">10+</span>
+                <span class="stat-number">15+</span>
                 <span class="stat-label">Projets réalisés</span>
               </div>
               <div class="stat-item">
@@ -147,7 +147,7 @@ session_start();
               </div>
               <div class="about-content">
                 <h2 class="fw-bold mb-2" style="color:#385074;">À propos de moi</h2>
-                <p class="mb-0" style="font-size:1.15rem;">Je m'appelle <strong>ESSE Henry-Joel</strong>, étudiant en 2ème année de développement d'application à l'UCAO-UUT. Passionné par la création de solutions web, mobiles et graphiques, j'accompagne mes clients dans la réussite de leurs projets digitaux avec sérieux, créativité et efficacité.</p>
+                <p class="mb-0" style="font-size:1.15rem;">Je suis <strong>ESSE Henry-Joël</strong>, étudiant en 3ème année de développement d'application à l'UCAO-UUT. Passionné par la création de solutions web, mobiles et graphiques, j'accompagne mes clients dans la réussite de leurs projets digitaux avec sérieux, créativité et efficacité.</p>
               </div>
             </div>
           </div>
@@ -275,6 +275,319 @@ session_start();
           </div>
 
           <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- Projet Web 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portailrh.webp" class="img-fluid" alt="portail-rh" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portailrh.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <a href="#" target="_blank" rel="noopener noreferrer" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Web</span>
+                  <h3>PORTAIL RH</h3>
+                  <p>Réalisé pendant mon stage à OG-MA du 30 juin au 2 octobre 2025</p>
+                  <p>Application de gestion du personnel incluant gestion des employés, du pointage, de la paie, des conges et des documents</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiches récentes - Mises en premier -->
+            
+            <!-- Affiche Vente cake -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/vente_cake_integration.webp" class="img-fluid" alt="Affiche Vente cake" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/vente_cake_integration.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité</h3>
+                  <p>Visuel pour promouvoir la vente de gâteaux.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Tournoi basket -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/tournoi-basket.webp" class="img-fluid" alt="Affiche Tournoi basket" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/tournoi-basket.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel</h3>
+                  <p>Visuel pour annoncer un tournoi de basket.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Soirée louange Avedji -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/soiree_louange_avedji.webp" class="img-fluid" alt="Affiche Soirée louange Avedji" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/soiree_louange_avedji.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel</h3>
+                  <p>Visuel pour annoncer une soirée de louange à Avedji.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Semaine étudiant -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/samaine-etudiant_aff_principale.webp" class="img-fluid" alt="Affiche Semaine étudiant" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/samaine-etudiant_aff_principale.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel</h3>
+                  <p>Visuel pour annoncer la semaine étudiante.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche PROTIC-STORE -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/PROTIC-STORE.webp" class="img-fluid" alt="Affiche PROTIC-STORE" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/PROTIC-STORE.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité</h3>
+                  <p>Visuel promotionnel pour PROTIC-STORE.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Pack Adobe -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/pack_adobe_2024.webp" class="img-fluid" alt="Affiche Pack Adobe" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/pack_adobe_2024.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité</h3>
+                  <p>Visuel promotionnel pour pack Adobe 2024.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche MASAHOUD -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/MASAHOUD-19-SERVICE.webp" class="img-fluid" alt="Affiche MASAHOUD" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/MASAHOUD-19-SERVICE.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité</h3>
+                  <p>Visuel promotionnel pour MASAHOUD-19-SERVICE.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Concours éloquence -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/concours_eloquence_plaidoirie_ucao.webp" class="img-fluid" alt="Affiche concours éloquence" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/concours_eloquence_plaidoirie_ucao.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel</h3>
+                  <p>Visuel pour annoncer un concours d'éloquence et de plaidoirie à l'UCAO.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche Ange-Délice -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Ange-Délice.webp" class="img-fluid" alt="Affiche Ange-Délice" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Ange-Délice.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité</h3>
+                  <p>Visuel promotionnel pour Ange-Délice.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiches anciennes - Après les récentes -->
+            
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/ablo-zozo.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/ablo-zozo.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité </h3>
+                  <p>Visuel pour presenter les plats d'ablo.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/adja_delice_decor.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/adja_delice_decor.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité </h3>
+                  <p>Visuel pour promouvoir des services de décoration et de fabrication de gâteaux</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/formation_art_beauty.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/formation_art_beauty.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel </h3>
+                  <p>Visuel pour annoncer une formation de frabrication de perruques</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/my_season_of_praise.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/my_season_of_praise.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel </h3>
+                  <p>Visuel pour annoncer un concert</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Tata-Abi.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Tata-Abi.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Publicité </h3>
+                  <p>Visuel pour presenter des articles</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Affiche événementielle 1 -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-affiche">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/photo1.webp" class="img-fluid" alt="Affiche événementielle 1" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/photo1.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-affiche"><i class="bi bi-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Affiche</span>
+                  <h3>Événementiel </h3>
+                  <p>Visuel pour annoncer une soirée de louange.</p>
+                </div>
+              </div>
+            </div>
+
             <!-- Projet Web 1 -->
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
@@ -323,7 +636,7 @@ session_start();
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/wordpress-ecole.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                      <a href="https://ucao-uut.wuaze.com" target="_blank" class="details-link"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -467,6 +780,7 @@ session_start();
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -508,70 +822,55 @@ session_start();
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-lg-8">
+                  <div class="col-lg-12">
                     <h2>Affiche pour événement </h2>
                     <p>
                       "Henry-Joel a réalisé une superbe affiche pour mon concourt de chant. Le design était moderne, percutant et a vraiment attiré du monde. Merci !"
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/emmanuel.webp" class="profile-img" alt="Témoignage affiche 1">
+                      <img src="assets/img/personnes/user.jpg" class="profile-img" alt="Témoignage affiche 1" style="width:60px;height:60px;object-fit:cover;border-radius:50%;">
                       <div class="profile-info">
                         <h3>Emmanuel Y.</h3>
                         <span>Elève</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 d-none d-lg-block">
-                    <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/emmanuel.webp" class="featured-img" alt="Témoignage affiche 1">
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-lg-8">
+                  <div class="col-lg-12">
                     <h2>Affiche pour prestation de services</h2>
                     <p>
                       "Très satisfaite du travail de Henry-Joel pour ma boutique. L'affiche était claire, professionnelle et a eu un vrai impact auprès du public."
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/daquine.webp" class="profile-img" alt="Témoignage affiche 2">
+                      <img src="assets/img/personnes/user.jpg" class="profile-img" alt="Témoignage affiche 2" style="width:60px;height:60px;object-fit:cover;border-radius:50%;">
                       <div class="profile-info">
                         <h3>Daquine E.</h3>
                         <span>Esthéticienne</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 d-none d-lg-block">
-                    <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/daquine.webp" class="featured-img" alt="Témoignage affiche 2">
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="row">
-                  <div class="col-lg-8">
+                  <div class="col-lg-12">
                     <h2>Création de logo</h2>
                     <p>
                       "J'ai confié la création de mon logo à Henry-Joel. Il a su comprendre mes attentes et proposer un visuel unique et professionnel. Je recommande !"
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/personnes/personne.webp" class="profile-img" alt="Témoignage logo">
+                      <img src="assets/img/personnes/user.jpg" class="profile-img" alt="Témoignage logo" style="width:60px;height:60px;object-fit:cover;border-radius:50%;">
                       <div class="profile-info">
                         <h3>The RO Store.</h3>
                         <span>Entrepreneur</span>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 d-none d-lg-block">
-                    <div class="featured-img-wrapper">
-                      <img src="assets/img/personnes/personne.webp" class="featured-img" alt="Témoignage logo">
                     </div>
                   </div>
                 </div>
@@ -801,7 +1100,7 @@ session_start();
       <div class="row align-items-center gy-4">
         <div class="col-lg-5 text-lg-start text-center mb-3 mb-lg-0">
           <h3 class="fw-bold mb-2" style="color:#385074;">ESSE Henry-Joel</h3>
-          <p class="mb-2" style="font-size:1.1rem;">Étudiant en 2ème année de développement d'application à l'UCAO-UUT</p>
+          <p class="mb-2" style="font-size:1.1rem;">Étudiant en 3ème année de développement d'application à l'UCAO-UUT</p>
           <p class="mb-0" style="font-size:1rem;">"Créons ensemble vos solutions digitales sur-mesure."</p>
         </div>
         <div class="col-lg-4 text-lg-center text-center mb-3 mb-lg-0">
